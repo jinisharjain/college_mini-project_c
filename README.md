@@ -123,56 +123,109 @@ The system follows a structured sequence of operations:
 The Integrated Smart Healthcare System demonstrates a practical application of programming in the healthcare domain. It effectively combines patient data management, symptom analysis, and emergency handling within a single system. While the system is basic in its current form, it provides a strong foundation for further development into a more advanced healthcare solution. 
 
 12. Test Cases for Emergency Response Module
+    
 Test Case 1: Valid Accident Emergency (High Priority)
+
 Input:
+
 Emergency Type: 1 (Accident)
+
 Severity: 4
+
 Expected Output:
+
 Displays: Accident
+
 Instructions: Control bleeding, do not move injured person
+
 Priority: HIGH
+
 Message: Emergency Dispatched Successfully
+
 Test Case 2: Fire Emergency (Critical Priority)
+
 Input:
+
 Emergency Type: 2 (Fire)
+
 Severity: 5
+
 Expected Output:
+
 Displays: Fire
+
 Instructions: Cover burns, move away from fire
+
 Priority: CRITICAL
+
 Message: Emergency Dispatched Successfully
+
 Test Case 3: Cardiac Arrest (Critical Case)
+
 Input:
+
 Emergency Type: 3 (Cardiac Arrest)
+
 Severity: 5
+
 Expected Output:
+
 Displays: Cardiac Arrest
+
 Instructions: Start CPR
+
 Priority: CRITICAL
+
 Message: Emergency Dispatched Successfully
+
 Test Case 4: General Emergency (Medium Priority)
+
 Input:
+
 Emergency Type: 4 (General Emergency)
+
 Severity: 2
+
 Expected Output:
+
 Displays: General Emergency
+
 Instructions: Monitor condition
+
 Priority: MEDIUM
+
 Message: Emergency Dispatched Successfully
+
 Test Case 5: Seizures (Low Priority)
+
 Input:
+
 Emergency Type: 5 (Seizures)
+
 Severity: 1
+
 Expected Output:
+
 Displays: Seizures
+
 Instructions: Remove sharp objects
+
 Priority: LOW
+
 Message: Emergency Dispatched Successfully
+
 Test Case 6: Invalid Emergency Type
+
 Input:
+
 Emergency Type: 7 (Invalid)
+
 Severity: 3
+
 Expected Output:
+
 Displays: Invalid
+
 Priority: HIGH (based on severity logic)
+
 Message: Emergency Dispatched Successfully
