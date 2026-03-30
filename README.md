@@ -86,34 +86,38 @@ The system displays:
 
 The system follows a structured sequence of operations:
 
-1. Display menu and accept user choice
-2. Collect patient information (if applicable)
-3. Accept symptom inputs and severity levels
-4. Compute risk score and classify risk level
-5. Generate health report with recommendations
-6. Handle emergency inputs and provide appropriate response
+ 1. Display menu and accept user choice
+ 2. Collect patient information (if applicable)
+ 3. Accept symptom inputs and severity levels
+ 4. Compute risk score and classify risk level
+ 5. Generate health report with recommendations
+ 6. Handle emergency inputs and provide appropriate response
 
 7. Technologies Used
 -Programming Language: C
 -Libraries:
  -stdio.h for input and output operations
  -time.h for handling date and time functions
+
 8. Advantages
 -Simple and easy-to-use interface
 -Efficient symptom-based risk analysis
 -Provides immediate guidance in emergencies
 -Maintains basic patient records using file handling
+
 9. Limitations
 -Lack of graphical user interface
 -Limited range of symptoms and conditions
 -No integration with real healthcare systems
 -Basic file storage instead of a structured database
+
 10. Future Enhancements
 -Development of a graphical user interface
 -Integration with hospital management systems
 -Implementation of advanced diagnosis using artificial intelligence
 -Inclusion of real-time doctor consultation features
 -Expansion into a web or mobile-based application
+
 11. Conclusion
 
 The Integrated Smart Healthcare System demonstrates a practical application of programming in the healthcare domain. It effectively combines patient data management, symptom analysis, and emergency handling within a single system. While the system is basic in its current form, it provides a strong foundation for further development into a more advanced healthcare solution. 
