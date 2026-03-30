@@ -86,11 +86,12 @@ The system displays:
 
 The system follows a structured sequence of operations:
 
- 1. Display menu and accept user choice
- 2. Collect patient information (if applicable)
- 3. Accept symptom inputs and severity levels
- 4. Compute risk score and classify risk level
- 5. Generate health report with recommendations and 6. Handle emergency inputs and provide appropriate response
+ - Display menu and accept user choice
+ -  Collect patient information (if applicable)
+ -  Accept symptom inputs and severity levels
+ -  Compute risk score and classify risk level
+ -  Generate health report with recommendations
+ -  Handle emergency inputs and provide appropriate response
 
 7. Technologies Used
 -Programming Language: C
