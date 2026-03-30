@@ -90,8 +90,7 @@ The system follows a structured sequence of operations:
  2. Collect patient information (if applicable)
  3. Accept symptom inputs and severity levels
  4. Compute risk score and classify risk level
- 5. Generate health report with recommendations
- 6. Handle emergency inputs and provide appropriate response
+ 5. Generate health report with recommendations and 6. Handle emergency inputs and provide appropriate response
 
 7. Technologies Used
 -Programming Language: C
